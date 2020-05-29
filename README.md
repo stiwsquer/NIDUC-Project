@@ -1,4 +1,6 @@
 # NIDUC-Project
+
+PSK:
 W naszym symulatorze zmiana pomiędzy QPSK a BSK następuje poprzez zmianę wartości M, odpowiednio na 4 lub na 2.
 Nasz program wyświetla 10 wykresów. Pierwszy to wykres obrazujący rozmieszczenie zmodulowanych danych na wykresie
 wskazowym. Następne 4 to  wykresy wskazowe dla konkretnych wartości (20,10,1,0.1 dB) SNR (Ratio of signal power to noise power).
