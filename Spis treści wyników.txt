@@ -1,0 +1,191 @@
+M-PSK
+	M=2
+		Przesunięcie fazy = π/M = π/2.
+		Szybkość transmisji = log_2⁡ M=1 b/T 
+
+		SNR = 20
+		SNR = 10
+		SNR = 1
+		SNR = 0.1
+	M=4
+		Przesunięcie fazy = π/M = π/4. 
+		Szybkość transmisji = log_2⁡ M=2  b/T 
+
+		SNR = 20
+		SNR = 10
+		SNR = 1
+		SNR = 0.1
+	M=8
+		
+		Przesunięcie fazy = π/M = π/8. 
+		Szybkość transmisji = log_2⁡ M=3  b/T 
+
+		SNR = 20
+		SNR = 10
+		SNR = 1
+		SNR = 0.1
+	M=16	
+
+		Przesunięcie fazy = π/M = π/16. 
+		Szybkość transmisji = log_2⁡ M=4  b/T 
+
+		SNR = 20
+		SNR = 10
+		SNR = 1
+		SNR = 0.1
+	
+	M = 32
+
+		Przesunięcie fazy = π/M = π/32. 
+		Szybkość transmisji = log_2⁡ M=5  b/T 
+
+		SNR = 20
+		SNR = 10
+		SNR = 1
+		SNR = 0.1
+
+	M = 64
+
+		Przesunięcie fazy = π/M = π/64. 
+		Szybkość transmisji = log_2⁡〖M=6〗  b/T 
+
+		SNR = 20
+		SNR = 10
+		SNR = 1
+		SNR = 0.1
+
+
+M-APSK
+	M = [4 4] – 8 punktów w konstelacji.
+
+		Szybkość transmisji = log2(8) = 3 b/T
+		Przesunięcie fazowe dla obu okręgów wynosi π/4.
+		Amplitudy to 0.5 oraz 1 I 0.5 ORAZ 1.5
+		Liczba bitów = liczba liczb * log2(sum(M))
+
+		
+		SNR = 160
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 :
+		SNR = 80 
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 :
+		SNR = 40
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 
+		SNR = 20 
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 
+		SNR = 10 
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 
+		SNR = 1 
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 
+		SNR = 0.1 
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 
+	
+	M = [8 8] Przesunięcie fazy pi/8 i pi/16
+		Szybkość transmisji = log2(16) = 4 b/T
+		Liczba bitów = liczba liczb * log2(sum(M))
+
+		SNR = 160
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 :
+		SNR = 80 
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 :
+		SNR = 40
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 
+		SNR = 20 
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 
+		SNR = 10 
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 
+		SNR = 1 
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 
+		SNR = 0.1 
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 
+	M = [8 8] Przesunięcie fazy pi/8 i pi/8
+		Szybkość transmisji = log2(16) = 4 b/T
+		Liczba bitów = liczba liczb * log2(sum(M))
+
+		SNR = 160
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 :
+		SNR = 80 
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 :
+		SNR = 40
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 
+		SNR = 20 
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 
+		SNR = 10 
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 
+		SNR = 1 
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 
+		SNR = 0.1 
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 
+	M = [16 16] Przesunięcie fazy pi/16 i pi/16
+		SNR = 160
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 :
+		SNR = 80 
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 :
+		SNR = 40
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 
+		SNR = 20 
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 
+		SNR = 10 
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 
+		SNR = 1 
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 
+		SNR = 0.1 
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 
+
+	M = [32 32] Przesunięcie fazy pi/32 i pi/32
+		SNR = 160
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 :
+		SNR = 80 
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 :
+		SNR = 40
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 
+		SNR = 20 
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 
+		SNR = 10 
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 
+		SNR = 1 
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 
+		SNR = 0.1 
+			Amplitudy 0.5 i 1 :
+			Amplitudy 0.5 i 1.5 
+
+
+
+
+
+
+
+
